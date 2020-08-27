@@ -15,3 +15,11 @@ An image with bunch of tools for CI/CD
   - Terraform
 - **Working with text files**:
   - envsubst
+
+
+## Tags
+
+| Tag | Terraform | Kubectl | AWS CLI  | Azure CLI | Docker compose | Kompose |
+| --- | --------- | ------- | -------- | --------- | -------------- | ------- |
+| 1.0 | 0.12.29   | 1.18.5  | 1.18.110 | 2.9.1     | 1.26.2         | 1.21.0  |
+| 2.0 | 0.13.1    | 1.19.0  | 1.18.127 | 2.11.0    | 1.26.2         | 1.21.0  |

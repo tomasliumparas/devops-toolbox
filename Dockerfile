@@ -2,11 +2,17 @@ FROM centos:8
 MAINTAINER Tomas Liumparas <tomas.liumparas@gmail.com>
 LABEL maintainer="tomas.liumparas@gmail.com"
 
-ARG TERRAFORM_VERSION="0.12.29"
-ARG KUBECTL_VERSION="1.18.5"
-ARG AWS_CLI_VERSION="1.18.110"
-ARG AZ_CLI_VERSION="2.9.1"
+# https://www.terraform.io/downloads.html
+ARG TERRAFORM_VERSION="0.13.1"
+# https://storage.googleapis.com/kubernetes-release/release/stable.txt
+ARG KUBECTL_VERSION="1.19.0"
+# https://pypi.org/project/awscli/
+ARG AWS_CLI_VERSION="1.18.127"
+# https://pypi.org/project/azure-cli/
+ARG AZ_CLI_VERSION="2.11.0"
+# https://github.com/docker/compose/releases/
 ARG DOCKER_COMPOSE_VERSION="1.26.2"
+# https://github.com/kubernetes/kompose/releases
 ARG KOMPOSE_VERSION="1.21.0"
 
 ENV HOME=/opt/app/root

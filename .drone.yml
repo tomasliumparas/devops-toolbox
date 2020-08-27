@@ -14,4 +14,4 @@ steps:
     repo: getais/devops-toolbox
     tags:
       - latest
-      - 1.0
+      - 2.0
