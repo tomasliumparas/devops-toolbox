@@ -15,6 +15,7 @@ ARG DOCKER_COMPOSE_VERSION="1.26.2"
 # https://github.com/kubernetes/kompose/releases
 ARG KOMPOSE_VERSION="1.21.0"
 
+
 ENV HOME=/opt/app/root
 
 # Install OS packages
