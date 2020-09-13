@@ -3,15 +3,15 @@ MAINTAINER Tomas Liumparas <tomas.liumparas@gmail.com>
 LABEL maintainer="tomas.liumparas@gmail.com"
 
 # https://www.terraform.io/downloads.html
-ARG TERRAFORM_VERSION="0.13.1"
+ARG TERRAFORM_VERSION="0.13.2"
 # https://storage.googleapis.com/kubernetes-release/release/stable.txt
-ARG KUBECTL_VERSION="1.19.0"
+ARG KUBECTL_VERSION="1.19.1"
 # https://pypi.org/project/awscli/
-ARG AWS_CLI_VERSION="1.18.127"
+ARG AWS_CLI_VERSION="1.18.137"
 # https://pypi.org/project/azure-cli/
-ARG AZ_CLI_VERSION="2.11.0"
+ARG AZ_CLI_VERSION="2.11.1"
 # https://github.com/docker/compose/releases/
-ARG DOCKER_COMPOSE_VERSION="1.26.2"
+ARG DOCKER_COMPOSE_VERSION="1.27.2"
 # https://github.com/kubernetes/kompose/releases
 ARG KOMPOSE_VERSION="1.21.0"
 
