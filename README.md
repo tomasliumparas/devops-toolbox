@@ -15,7 +15,8 @@ An image with bunch of tools for CI/CD
   - Terraform
 - **Working with text files**:
   - envsubst
-
+- **Misc**:
+  - tree
 
 ## Tags
 

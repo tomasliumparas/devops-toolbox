@@ -23,6 +23,7 @@ RUN yum install -y \
     wget \
     unzip \
     python38 \
+    tree \
 
     # envsubst
     gettext
