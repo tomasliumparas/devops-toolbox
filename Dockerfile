@@ -24,6 +24,7 @@ RUN yum install -y \
     unzip \
     python38 \
     tree \
+    jq \
 
     # envsubst
     gettext
