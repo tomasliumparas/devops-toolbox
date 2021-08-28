@@ -29,6 +29,8 @@ RUN yum install -y \
     # envsubst
     gettext
 
+RUN yum module install -y nodejs:14
+
 # Download binaries
 RUN mkdir dl && \
     cd dl && \
