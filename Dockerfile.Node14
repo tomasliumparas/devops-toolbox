@@ -1,19 +1,8 @@
-FROM centos:8
+FROM getais/devops-toolbox:2.1
+
 MAINTAINER Tomas Liumparas <tomas.liumparas@gmail.com>
 LABEL maintainer="tomas.liumparas@gmail.com"
 
-ENV HOME=/opt/app/root
-
-# Install OS packages
-RUN yum install -y \
-    wget \
-    unzip \
-    tree \
-    jq \
-
-    # envsubst
-    gettext
-
 RUN yum module install -y nodejs:14
-RUN npm install yarn
+RUN npm install -g yarn
 

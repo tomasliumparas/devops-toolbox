@@ -4,7 +4,7 @@ name: build
 
 steps:
 
-- name: Default
+- name: Base
   image: plugins/docker
   settings:
     username:

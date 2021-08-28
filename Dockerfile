@@ -1,4 +1,5 @@
 FROM centos:8
+
 MAINTAINER Tomas Liumparas <tomas.liumparas@gmail.com>
 LABEL maintainer="tomas.liumparas@gmail.com"
 
