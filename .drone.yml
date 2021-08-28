@@ -4,7 +4,7 @@ name: build
 
 steps:
 
-- name: Docker image
+- name: Default
   image: plugins/docker
   settings:
     username:
@@ -15,3 +15,15 @@ steps:
     tags:
       - latest
       - 2.1
+
+- name: NodeJS 14
+  image: plugins/docker
+  settings:
+    username:
+      from_secret: DOCKER_USER
+    password:
+      from_secret: DOCKER_TOKEN
+    repo: getais/devops-toolbox
+    dockerfile: Dockerfile.Node14
+    tags:
+      - 2.1-node14
