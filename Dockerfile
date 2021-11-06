@@ -26,6 +26,7 @@ RUN yum install -y \
     python38 \
     tree \
     jq \
+    createrepo \
 
     # envsubst
     gettext
