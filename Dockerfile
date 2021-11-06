@@ -56,7 +56,12 @@ RUN mkdir dl && \
     curl -Lso /usr/local/bin/kompose \
       https://github.com/kubernetes/kompose/releases/download/v$KOMPOSE_VERSION/kompose-linux-amd64 && \
     chmod +x /usr/local/bin/kompose && \
-    kompose version
+    kompose version && \
+
+    ## Minio cli
+    curl -Lso /usr/local/bin/mc \
+      https://dl.min.io/client/mc/release/linux-amd64/mc && \
+    chmod +x /usr/local/bin/mc    
 
 # Install pip3 packages
     ## awscli
